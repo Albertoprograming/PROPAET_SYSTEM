@@ -1,0 +1,67 @@
+.encabezado-personalizado {
+    background-color: #7d07cf;
+    /* verde institucional */
+    color: white;
+}
+
+.footer-personalizado {
+    background-color: #7d07cf;
+    color: white;
+}
+
+.btn {
+    background-color: #27ae60;
+    lighting-color: #b03a2e;
+    int
+}
+
+
+body {
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.encabezado-personalizado {
+    background-color: #5A2A83;
+    /* Morado oscuro institucional */
+    padding: 15px;
+}
+
+.encabezado-personalizado .navbar-brand,
+.encabezado-personalizado .nav-link {
+    color: white;
+    font-weight: 500;
+}
+
+.encabezado-personalizado .nav-link:hover {
+    color: #D1C4E9;
+    /* Morado claro */
+}
+
+h1.text-primary {
+    color: #5A2A83;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+h3.text-secondary {
+    color: #333;
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.btn-primary {
+    background-color: #5A2A83;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #7B4397;
+}
+
+.footer-personalizado {
+    background-color: #5A2A83;
+    color: white;
+}

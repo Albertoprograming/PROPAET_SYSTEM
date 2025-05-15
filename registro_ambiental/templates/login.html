@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Esto es el head para todo -->
+<head>
+    <meta charset="UTF-8">
+    <title>Página Principal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='estilos.css') }}">
+</head>
+ 
+<nav class="navbar navbar-expand-lg encabezado-personalizado">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://tlaxcala.gob.mx/index.php/component/content/?view=article&id=2824&Itemid=130">Protección del ambiente PROPAET</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="/registro">Registro</a></li>
+          <li class="nav-item"><a class="nav-link" href="/index">Inicio</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- Esto es el head para todo -->
+
+
+<body class="bg-light">
+    <div class="container mt-5">
+        <h2 class="text-center text-primary mb-4">Login</h2>
+        <form method="post" class="card p-4 shadow-sm mx-auto" style="max-width: 400px;">
+            <div class="mb-3">
+                <label class="form-label">Usuario:</label>
+                <input type="text" name="usuario" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Contraseña:</label>
+                <input type="password" name="password" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Iniciar sesión</button>
+            <div class="text-center mt-3">
+                <a href="/crear_cuenta" class="btn btn-outline-secondary w-100">Crear cuenta</a>
+            </div>
+            
+        </form>
+    </div>
+</body>
+
+
+<!-- Esto es el footer para todo -->
+
+<footer class="footer-personalizado text-center py-3 mt-5">
+    <p class="mb-0">© 2025 Sitio oficial del Gobierno del Estado de Tlaxcala - Oficialía Mayor de Gobierno</p>
+  </footer>
+<!-- Esto es el footer para todo -->
+
+</html>
